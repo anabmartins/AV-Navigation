@@ -7,8 +7,6 @@ export default function App() {
     <View style={styles.container}>
       <Image style={styles.image} source={require('../assets/icone.png')} />
       <Text style={styles.titulo}>Nice Bank</Text>
-      <Text style={styles.texto}>Conheça já e cadastre se no nosso banco Nice Bank e aproveite a segurança e facilidade que ele oferece!
-      Comece já!</Text>
       <StatusBar style="auto" />
       <TouchableOpacity style={styles.botao}>
       <Link href="/cadastro" style={styles.btnTxt}>ENTRAR</Link>
