@@ -32,7 +32,7 @@ export default function App() {
       />
 
       <TouchableOpacity style={styles.botao}>
-      <Link href="/" style={styles.btnTxt}>SALVAR</Link>
+      <Link href="sobre" style={styles.btnTxt}>SALVAR</Link>
       </TouchableOpacity>
 
       <TouchableOpacity style={styles.botao}>

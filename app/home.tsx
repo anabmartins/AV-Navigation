@@ -4,14 +4,14 @@ import { Link } from "expo-router";
 
 const Images = () => {
     return <View style={styles.flex}>
-    <Image style={styles.image} source={require('../assets/images/1.png')} />
-     <Image style={styles.image} source={require('../assets/images/2.png')} />
-     <Image style={styles.image} source={require('../assets/images/3.png')} />
-     <Image style={styles.image} source={require('../assets/images/4.png')} />
-     <Image style={styles.image} source={require('../assets/images/5.png')} />
-     <Image style={styles.image} source={require('../assets/images/6.png')} />
-     <Image style={styles.image} source={require('../assets/images/7.png')} />
-     <Image style={styles.image} source={require('../assets/images/8.png')} />
+     <Image style={styles.imageHome} source={require('../assets/images/1.png')} />
+     <Image style={styles.imageHome} source={require('../assets/images/2.png')} />
+     <Image style={styles.imageHome} source={require('../assets/images/3.png')} />
+     <Image style={styles.imageHome} source={require('../assets/images/4.png')} />
+     <Image style={styles.imageHome} source={require('../assets/images/5.png')} />
+     <Image style={styles.imageHome} source={require('../assets/images/6.png')} />
+     <Image style={styles.imageHome} source={require('../assets/images/7.png')} />
+     <Image style={styles.imageHome} source={require('../assets/images/8.png')} />
     </View>
     }
 
@@ -69,9 +69,12 @@ const styles = StyleSheet.create({
   },
   flex: {
     flex: 1,
-    flexDirection: 'row',
-    alignItems: 'flex-start',
-    flexWrap: 'wrap',
     gap: 10,
+  },
+  imageHome: {
+    justifyContent: "center",
+    alignContent: "center",
+    width: 200,
+    height: 200,
   }
 });
