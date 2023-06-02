@@ -1,17 +1,20 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, Image, TouchableOpacity } from 'react-native';
+import { StyleSheet, Text, View, Image, TouchableOpacity, ScrollView } from 'react-native';
 import { Link } from "expo-router";
 
 const Images = () => {
     return <View style={styles.flex}>
+        <ScrollView>
      <Image style={styles.imageHome} source={require('../assets/images/1.png')} />
      <Image style={styles.imageHome} source={require('../assets/images/2.png')} />
      <Image style={styles.imageHome} source={require('../assets/images/3.png')} />
      <Image style={styles.imageHome} source={require('../assets/images/4.png')} />
+
      <Image style={styles.imageHome} source={require('../assets/images/5.png')} />
      <Image style={styles.imageHome} source={require('../assets/images/6.png')} />
      <Image style={styles.imageHome} source={require('../assets/images/7.png')} />
      <Image style={styles.imageHome} source={require('../assets/images/8.png')} />
+     </ScrollView>
     </View>
     }
 
